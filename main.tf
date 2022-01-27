@@ -10,13 +10,3 @@ terraform {
     encrypt        = true
   }
 }
-
-resource "aws_s3_bucket" "atlantis_demo" {
-    bucket = "thiago-atlantis-demostrate-site"
-    acl    = "private"
-
-  tags = {
-    Name        = "Atlantis demo"
-    Environment = "Dev"
-  }
-}
