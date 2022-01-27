@@ -12,7 +12,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "atlantis_demo" {
-    bucket = "thiago-atlantis-demostrate-site"
+    bucket = "thiago-atlantis-demostrate2-site"
     acl    = "private"
 
   tags = {
